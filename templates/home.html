@@ -3,7 +3,9 @@
     <title>Home Page</title>
 </head>
 <body>
+<center>
     <h2> FWI Predicton</h2>
+    <
     <form action = "{{url_for('predict_datapoint')}}" method="post">
         <input type = "text" name="Temperature" placeholder="Temperature" required = "required"/><br>
         <input type = "text" name="RH" placeholder="RH" required = "required"/><br>
@@ -18,5 +20,6 @@
 
     </form>
     <h2>The FWI value is {{results}}</h2>
+</center>
 </body>
 </html>
